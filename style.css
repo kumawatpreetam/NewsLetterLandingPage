@@ -1,0 +1,578 @@
+/* Import Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  font-size: 16px !important;
+}
+
+/* CSS Variables */
+
+:root {
+  --green-color: #119c59;
+  --white-color: #ffffff;
+  --text-color: #25282b;
+  --bg-color: #faf9f7;
+  --container-padding-mobile: 1rem;
+  --container-padding-tablet: 2rem;
+  --container-padding-desktop: 5rem;
+}
+
+/* Utiliti-Classes  */
+.header-section,
+.hero-section,
+.newsletter-experience-section,
+.news-section,
+.girl-section,
+.circle-section,
+.community-section {
+  width: 100%;
+}
+
+.single-image-section,
+.newsletter-experience-section,
+.news-section .right-box,
+.girl-section,
+.community-section {
+  background-color: var(--bg-color);
+}
+
+.right-box img,
+.mid-img img {
+  max-width: 75%;
+  height: auto;
+}
+
+.nl-links,
+.nl-logo sup {
+  color: var(--text-color);
+}
+
+.nl-nav-btn:hover,
+.nl-news-btn:hover {
+  background-color: var(--green-color) !important;
+  color: var(--white-color) !important;
+}
+
+.nl-hero-btn:hover,
+.nl-cicle-btn:hover {
+  border: 2px solid var(--green-color) !important;
+  color: var(--green-color) !important;
+}
+
+.nl-btn {
+  border: 2px solid var(--green-color);
+  color: var(--green-color);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  border-radius: 36px;
+  padding: 12px 40px;
+  letter-spacing: 0.2px;
+}
+
+.nl-experience-heading,
+.nl-girl-heading,
+.community-heading {
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 54px;
+  letter-spacing: 0 !important;
+  color: var(--text-color);
+}
+
+.nl-experience-sub-heading,
+.bring-sub-heading {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.2 !important;
+  color: var(--text-color);
+}
+
+.nl-experience-sub-text,
+.bring-sub-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1 !important;
+  color: var(--text-color);
+}
+
+.nl-news-heading,
+.circle-heading,
+.community-sub-heading,
+.bring-section-heading {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: 0.1 !important;
+  color: var(--text-color);
+}
+
+.nl-news-heading-sub-text,
+.circle-sub-text,
+.community-sub-text,
+.footer-heading {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.2 !important;
+  color: var(--text-color);
+}
+
+/* NavSection  */
+
+.header-section {
+  height: 84px;
+}
+
+.nl-logo {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0.2px;
+}
+
+.nl-navbar {
+  height: 100%;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.nl-links {
+  line-height: 1rem;
+  border-bottom: 3px solid transparent;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+.nl-links:hover {
+  border-bottom: 3px solid var(--green-color);
+  color: var(--text-color);
+}
+
+.nl-logo {
+  color: var(--green-color) !important;
+}
+
+.nl-logo:hover {
+  color: var(--green-color) !important;
+}
+
+/* Hero-Section  */
+
+.nl-hero-heading-text {
+  font-weight: 300;
+  font-size: 52px;
+  line-height: 64px;
+  letter-spacing: 0.2px;
+}
+
+.nl-hero-sub-text {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.2px;
+  color: var(--green-color);
+}
+
+.nl-hero-btn {
+  background-color: var(--green-color);
+  color: var(--white-color);
+}
+
+/*  Newsletter-experience-section   */
+
+.nl-exp-cards {
+  position: relative;
+  padding-right: 0;
+}
+
+.nl-exp-cards::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 5px;
+  width: 4px;
+  height: 49px;
+  background: var(--green-color);
+  border-radius: 2px;
+}
+
+/* news-section */
+
+.community-sub-heading {
+  color: var(--green-color);
+}
+
+/* GirlSection  */
+
+.nl-girl-heading {
+  color: var(--green-color);
+}
+
+.girl-sub-text {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: 0.1 !important;
+  color: var(--text-color);
+}
+
+/* circle-section  */
+.nl-cicle-btn {
+  background-color: var(--green-color);
+  color: var(--white-color);
+}
+
+/* BringBaxkSection  */
+
+.bringback-section {
+  background-color: var(--text-color);
+}
+
+.bring-section-heading {
+  color: var(--bg-color);
+}
+
+.bring-sub-heading {
+  color: var(--green-color);
+}
+
+.bring-sub-text {
+  color: var(--bg-color);
+}
+
+/* footer  */
+
+.footer-heading {
+  color: var(--green-color);
+}
+
+.footer-sub-text {
+  color: var(--text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.copyright-txt {
+  background-color: var(--green-color);
+  margin: 0 1rem;
+}
+
+.foot-span-text,
+.footer-copyright-text {
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.foot-sub-text,
+.foot-date {
+  color: var(--bg-color);
+}
+
+.footer-logo {
+  font-weight: 700;
+  font-size: 25px;
+  color: var(--bg-color);
+}
+
+/* MediaQueries  */
+
+@media (max-width: 768px) {
+  .hero-section,
+  .newsletter-experience-section,
+  .single-image-section,
+  .news-section,
+  .girl-section,
+  .circle-section,
+  .community-section,
+  .bringback-section,
+  .footer-section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .hide-br {
+    display: none;
+  }
+
+  .header-section {
+    height: 50px;
+  }
+  .nl-logo {
+    font-size: 20px;
+  }
+  .nl-nav-btn {
+    padding: 8px 0px !important;
+    font-size: 14px;
+  }
+
+  .nl-hero-text-box {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero-section .left-box {
+    justify-content: center;
+  }
+
+  .nl-hero-heading-text br,
+  .nl-hero-sub-text br,
+  .nl-news-heading-sub-text br,
+  .circle-sub-text br {
+    display: none;
+  }
+
+  .nl-hero-heading-text {
+    font-size: 26px;
+    text-align: center;
+    line-height: 32px;
+  }
+
+  .nl-hero-sub-text {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 0 0.5rem;
+  }
+
+  .right-box img,
+  .mid-img img {
+    max-width: 60%;
+    height: auto;
+  }
+
+  .nl-experience-heading,
+  .nl-girl-heading,
+  .community-heading {
+    font-size: 22px;
+    text-align: center;
+    line-height: 28px;
+  }
+
+  .nl-experience-sub-heading,
+  .nl-experience-sub-text,
+  .girl-sub-text,
+  .bring-sub-heading,
+  .bring-sub-text {
+    font-size: 14px;
+  }
+
+  /* NewsSection  */
+
+  .nl-news-heading,
+  .circle-heading,
+  .community-sub-heading,
+  .bring-section-heading {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  .nl-news-heading-sub-text,
+  .circle-sub-text,
+  .community-sub-text,
+  .footer-heading {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .community-sub-text {
+    line-height: 18px;
+  }
+
+  .nl-news-text-box,
+  .circle-sub-text {
+    text-align: center;
+  }
+
+  .news-section .left-box,
+  .circle-section .left-box {
+    justify-content: center;
+  }
+
+  .girl-sub-text {
+    line-height: 18px;
+  }
+
+  /* circle section  */
+  .circle-text-box {
+    text-align: center;
+  }
+
+  .nl-news-heading,
+  .circle-heading {
+    margin-top: 1.5rem;
+  }
+
+  /* Bring-Section  */
+
+  .bring-text-box {
+    margin-left: 0.5rem;
+  }
+
+  /* Footer section  */
+
+  .foot-sub-text,
+  .foot-date,
+  .foot-span-text {
+    font-size: 8px;
+  }
+
+  .footer-sub-text {
+    font-weight: 400;
+  }
+  .footer-logo {
+    font-size: 8px;
+  }
+
+  .foot-sub-text {
+    padding: 0.5rem 0 !important;
+  }
+
+  .foot-span-text {
+    padding-top: 1rem !important;
+  }
+
+  .copyright-txt {
+    margin: 0;
+  }
+
+  .mobile-btn {
+    width: 8rem !important;
+    margin-top: 1rem !important;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .container-fluid {
+    padding-left: var(--container-padding-tablet);
+    padding-right: var(--container-padding-tablet);
+  }
+
+  .nl-hero-heading-text {
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  .nl-hero-sub-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .nl-experience-heading,
+  .nl-girl-heading,
+  .community-heading {
+    font-size: 22px;
+    text-align: center;
+    line-height: 28px;
+  }
+
+  .nl-experience-sub-heading,
+  .nl-experience-sub-text,
+  .girl-sub-text,
+  .bring-sub-heading,
+  .bring-sub-text {
+    font-size: 14px;
+  }
+
+  /* NewsSection  */
+
+  .nl-news-heading,
+  .circle-heading,
+  .community-sub-heading,
+  .bring-section-heading {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  .nl-news-heading-sub-text,
+  .circle-sub-text,
+  .community-sub-text,
+  .footer-heading {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .community-sub-text {
+    line-height: 18px;
+  }
+
+  .nl-news-text-box,
+  .circle-sub-text {
+    text-align: center;
+  }
+
+  .news-section .left-box,
+  .circle-section .left-box {
+    justify-content: center;
+  }
+
+  /* Girl-Section  */
+  .girl-sub-text {
+    line-height: 18px;
+  }
+
+  /* circle section  */
+  .circle-text-box {
+    text-align: center;
+  }
+
+  .nl-news-heading,
+  .circle-heading {
+    margin-top: 1.5rem;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .container-fluid {
+    padding-left: var(--container-padding-desktop);
+    padding-right: var(--container-padding-desktop);
+  }
+
+  .nl-hero-heading-text {
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  .nl-hero-sub-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .nl-experience-sub-heading,
+  .nl-experience-sub-text,
+  .girl-sub-text,
+  .bring-sub-heading,
+  .bring-sub-text {
+    font-size: 14px;
+  }
+
+  .nl-experience-heading,
+  .community-heading,
+  .nl-girl-heading {
+    font-size: 22px;
+    text-align: center;
+    line-height: 28px;
+  }
+  .girl-sub-text {
+    line-height: 18px;
+  }
+}
