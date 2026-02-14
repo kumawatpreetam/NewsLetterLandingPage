@@ -45,7 +45,9 @@ Follow these steps to get a local copy of the project up and running:
 
 1. **Clone the Repository:**
 
-   git clone [https://github.com/kumawatpreetam/NewsLetterLandingPage.git](https://github.com/kumawatpreetam/NewsLetterLandingPage.git)
+   ```bash
+   (https://github.com/kumawatpreetam/NewsLetterLandingPage.git)
+   ```
 
 2. **Run Locally:**
 
