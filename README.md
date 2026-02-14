@@ -15,7 +15,6 @@ _(Add your screenshots to an 'assets' or 'screenshots' folder to display them he
 ## 🔗 Live Preview
 
 [![Live Demo](https://img.shields.io/badge/Netlify-Live_Demo-00AD9F?style=for-the-badge&logo=netlify&logoColor=white)](https://newsletterwebapp.netlify.app/)
-_(Note: Replace with your actual live link if different)_
 
 ## 🚀 Key Features
 
@@ -46,9 +45,7 @@ Follow these steps to get a local copy of the project up and running:
 
 1. **Clone the Repository:**
 
-   ```bash
    git clone [https://github.com/kumawatpreetam/NewsLetterLandingPage.git](https://github.com/kumawatpreetam/NewsLetterLandingPage.git)
-   ```
 
 2. **Run Locally:**
 
